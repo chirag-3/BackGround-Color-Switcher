@@ -4,16 +4,24 @@ header{
     width:100%;
 }
 
+body{
+    background-color: magenta;
+}
+
 h1{
     flex-basis:75%;
     width:75%;
     flex-grow: 1;
     margin:10px auto;
-    background-color: pink;
+    /* background-color: pink; */
     text-align: right;
     padding-right: 20%;
     box-sizing: border-box;
     flex-shrink: 0;
+}
+
+h1{
+    color:white;
 }
 
 #colors{
@@ -26,6 +34,7 @@ h1{
     padding-left:80px;
     padding-right:20px;
     box-sizing: border-box;
+    background-color: azure;
 }
 
 body{
@@ -44,6 +53,7 @@ span{
     height:30px;
     border-radius: 50%;
     display: inline-block;
+    cursor:pointer;
 }
 
 #yellow{
